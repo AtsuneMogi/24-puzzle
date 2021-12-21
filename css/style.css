@@ -3,12 +3,12 @@ body{
 }
 
 img{
-    width: 16%;
+    width: 15%;
 }
 
 .numbers{
     display: inline-block;
-    width: 50%;
+    width: 60%;
     font-size: 0;
 } 
 
