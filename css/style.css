@@ -1,21 +1,18 @@
+html{
+    touch-action: manipulation;
+}
+
 body{
     text-align: center;
 }
 
-img{
-    width: 15%;
-}
-
 .numbers{
     display: inline-block;
-    width: 60%;
     font-size: 0;
 } 
 
 .function{
-    flex-direction: row;
     font-size: 30px;
-    display: inline-block;
     vertical-align: text-bottom;
 }
 
@@ -48,6 +45,21 @@ img{
     width: 120px;
     height: 40px;
 }
+
+@media screen and (max-height: 1100px){
+    img{
+        width: 15%;
+    }
+
+    .numbers{
+        width: 60%;
+    }
+
+    .function{
+        display: inline-block;
+    }
+}
+
 
 @media screen and (max-width: 1100px){
     img{
